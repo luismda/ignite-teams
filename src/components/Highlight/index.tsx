@@ -1,11 +1,11 @@
 import { Container, Subtitle, Title } from './styles'
 
-interface HighLightProps {
+interface HighlightProps {
   title: string
   subtitle: string
 }
 
-export function HighLight({ title, subtitle }: HighLightProps) {
+export function Highlight({ title, subtitle }: HighlightProps) {
   return (
     <Container>
       <Title>{title}</Title>
