@@ -22,7 +22,10 @@ export function Groups() {
         data={groups}
         keyExtractor={(item) => item}
         renderItem={({ item }) => <GroupCard title={item} />}
-        contentContainerStyle={groups.length === 0 && { flex: 1 }}
+        contentContainerStyle={[
+          { paddingBottom: 100 },
+          groups.length === 0 && { flex: 1 },
+        ]}
         ListEmptyComponent={() => (
           <EmptyList message="Que tal criar a sua primeira turma?" />
         )}
