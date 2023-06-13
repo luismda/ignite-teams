@@ -7,6 +7,7 @@ import { Header } from '@components/Header'
 import { Highlight } from '@components/Highlight'
 import { GroupCard } from '@components/GroupCard'
 import { EmptyList } from '@components/EmptyList'
+import { Button } from '@components/Button'
 
 export function Groups() {
   const [groups, setGroups] = useState<string[]>([])
@@ -26,6 +27,8 @@ export function Groups() {
           <EmptyList message="Que tal criar a sua primeira turma?" />
         )}
       />
+
+      <Button title="Criar nova turma" />
     </Container>
   )
 }
