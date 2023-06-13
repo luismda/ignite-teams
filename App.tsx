@@ -8,7 +8,7 @@ import { ThemeProvider } from 'styled-components'
 
 import { defaultTheme } from '@theme/default'
 
-import { NewGroup } from '@screens/NewGroup'
+import { Groups } from '@screens/Groups'
 import { Loading } from '@components/Loading'
 
 export default function App() {
@@ -25,7 +25,7 @@ export default function App() {
         translucent
       />
 
-      {hasLoadedFonts ? <NewGroup /> : <Loading />}
+      {hasLoadedFonts ? <Groups /> : <Loading />}
     </ThemeProvider>
   )
 }
