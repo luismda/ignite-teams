@@ -8,7 +8,7 @@ import { ThemeProvider } from 'styled-components/native'
 
 import { defaultTheme } from '@theme/default'
 
-import { Players } from '@screens/Players'
+import { Routes } from '@routes/index'
 import { Loading } from '@components/Loading'
 
 export default function App() {
@@ -25,7 +25,7 @@ export default function App() {
         translucent
       />
 
-      {hasLoadedFonts ? <Players /> : <Loading />}
+      {hasLoadedFonts ? <Routes /> : <Loading />}
     </ThemeProvider>
   )
 }
