@@ -1,8 +1,10 @@
-import { useState } from 'react'
-import { FlatList } from 'react-native'
-import { useNavigation } from '@react-navigation/native'
+import { useState, useCallback } from 'react'
+import { FlatList, Alert } from 'react-native'
+import { useNavigation, useFocusEffect } from '@react-navigation/native'
 
 import { Container } from './styles'
+
+import { groupGetAll } from '@storage/groups/groupGetAll'
 
 import { Header } from '@components/Header'
 import { Highlight } from '@components/Highlight'
@@ -19,6 +21,27 @@ export function Groups() {
     navigation.navigate('new')
   }
 
+  function handleOpenGroup(group: string) {
+    navigation.navigate('players', { group })
+  }
+
+  async function fetchGroups() {
+    try {
+      const groups = await groupGetAll()
+
+      setGroups(groups)
+    } catch (error) {
+      Alert.alert('Ver turmas', 'Não foi possível carregar suas turmas.')
+      console.log(error)
+    }
+  }
+
+  useFocusEffect(
+    useCallback(() => {
+      fetchGroups()
+    }, []),
+  )
+
   return (
     <Container>
       <Header />
@@ -28,7 +51,9 @@ export function Groups() {
       <FlatList
         data={groups}
         keyExtractor={(item) => item}
-        renderItem={({ item }) => <GroupCard title={item} />}
+        renderItem={({ item }) => (
+          <GroupCard title={item} onPress={() => handleOpenGroup(item)} />
+        )}
         contentContainerStyle={[
           { paddingBottom: 100 },
           groups.length === 0 && { flex: 1 },
