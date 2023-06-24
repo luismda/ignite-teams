@@ -1,13 +1,13 @@
 # Ignite Teams
 
-<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/fbdf84ed-bc32-4355-946b-4a049ff8fcf6" alt="" />
-<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/b6d1accc-28cc-4e0b-95c3-3d47c68496ac" alt="" />
-<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/68a4554e-9b7e-4482-abf5-a35747183a27" alt="" />
-<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/86ac11e3-736d-4b06-b880-d48f5324f6a7" alt="" />
-<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/fb931e11-8354-4f2e-8765-f8fc30b42b5c" alt="" />
-<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/13d2be22-9d1a-49ad-be77-2b40f8a52dbd" alt="" />
-<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/0e67b385-53d5-4194-ab30-2dcaff093375" alt="" />
-<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/955359bd-0196-4661-884d-fb5aee1b3189" alt="" />
+<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/f824a25a-6de0-47b3-a483-60e8b315034f" alt="" />
+<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/148143b7-5e37-4d5c-b461-24fcd02b7fa0" alt="" />
+<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/d599dd3d-cec0-4baf-9650-bb687509408f" alt="" />
+<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/f97bfc0a-dc76-4519-a052-732f703e50d3" alt="" />
+<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/b3a43f0a-7a2b-487d-ac7e-bdbfa90273cf" alt="" />
+<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/7b7007da-2ae7-475a-b174-f2a42056e1bd" alt="" />
+<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/d4e1b0a9-a320-4562-929a-48e9d52be000" alt="" />
+<img width="180" src="https://github.com/luismda/ignite-teams/assets/88680118/b1775650-7c9e-48d0-8207-3a4771c610a4" alt="" />
 
 ---
 
