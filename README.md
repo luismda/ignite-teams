@@ -21,9 +21,9 @@ The project was developed using these technologies:
 - Expo Managed Workflow
 - Styled Components
 - React Navigation
-- Async Storage (used to local storage of groups and players)
+- Async Storage (*used to local storage of groups and players*)
 
-Also, this project was developed in the React Native training of the [**Rocketseat**](https://github.com/rocketseat-education) **Ignite** course. The main purpose of this app was to practice styling, navigation and local storage, as well as some React Hooks and techniques, and good coding practices.
+Also, this project was developed in the React Native training of the [**Rocketseat**](https://github.com/rocketseat-education) **Ignite** course. The main purpose of this app was to practice **styling, navigation and local storage**, as well as some **React Hooks** and techniques, and good coding practices.
 
 [**Access the project layout in Figma**](https://www.figma.com/community/file/1151864427495057381)
 
