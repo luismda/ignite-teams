@@ -14,7 +14,7 @@ export function PlayerCard({ name, onRemove }: PlayerCardProps) {
 
       <Name>{name}</Name>
 
-      <ButtonIcon icon="close" type="SECONDARY" />
+      <ButtonIcon icon="close" type="SECONDARY" onPress={onRemove} />
     </Container>
   )
 }
